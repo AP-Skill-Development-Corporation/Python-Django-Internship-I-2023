@@ -1,0 +1,108 @@
+Day-01[22-05-2023]:
+===================
+	
+	Good Morning All..
+
+	Web Technology - Django Framework [Python]
+
+	Try to rename your names in goto meeting for attendance purpose
+
+		rename in the given format such as
+
+		rollnumber-name-collegecode
+
+		Dont use any spaces between the format or any special characters(,.;',""[]) except -
+
+	
+	Internship Course Content:
+	==========================
+	Python
+		- Basic Procedure
+		- OOPS Concepts 
+	Django
+		- Project Creations
+		- App Creation
+		- run
+	Front End
+		- Html5
+		- CSS3
+		- Javascript
+		- Bootstrap - 4
+
+	Python:
+	=======
+		- Guido Van Rossum [1989 - 1991]
+		- ABC Programming - predessor => Python
+		- BBC comedy show => "Monty Python's flying Circus"
+
+	Python uses:
+	============
+		- easy to learn
+		- easy to read
+		- easy to maintain
+		- interactive
+		- multipurpose programming [procedure,object,function]
+		- GUI [tkinter]
+		- machine learning
+		- artificial intelligence
+
+	Python Software check:
+	======================
+		- cmd
+		- python -V
+
+	Errors when python is not displayed in your system:
+	===================================================
+		cmd:
+		====
+			** python is not recognised as an internal or external command error
+
+		- 2 or more softwares are installed
+			- 2.75
+			- 3.56
+			- 3.7
+		- software is not installed
+		- Python path is not set in your environment variable path
+		- Anaconda sofware [python version-? => path X]
+
+	Python Software installation:
+	=============================
+		- browser
+		- https://python.org
+		- downloads
+			- windows => click
+		- 2 columns
+			- stable release => Builtin [users]
+			- pre release => developer
+		- particular version
+			- cntrl + f => search
+			- python 3.x version
+		- we need to know your local system bit
+		- 7 options
+			- help file
+			- windows x86-64 embeddedd zip file
+			- windows x86-64 executeable installer
+			- windows x86-64 web bsed installer
+			- windows x86 embeddedd zip file
+			- windows x86 executeable installer
+			- windows x86 web bsed installer			
+		- select bit and executeable installer
+
+	Installation of Python:
+	=======================
+	> After Downloading the python software we need to double tap on it then and it asks permissions to allow the software to install in your local system we need to tap "yes" to proceed for it.
+	> It will displays 2 options and 2 checkboxes such as
+		2 checkboxes:
+		=============
+			- Install for all users
+			- Add python 3.x to path
+			> For all users we need to access python then we need to check first option
+			> We need to set a path by default in environment variable path then we need to select this option. If not then it displays an error in "command prompt" while accessing python
+
+		2 options:
+		==========
+			- install now [Default path]
+			- customize installation [User selected path]
+		> While clicking on "install now" by default it automatically allocates to the path such as "c:/users/username/AppData/Local/Programs/Python/Python3x/".
+			Here python will be installed if we select this option while installing it
+		> Custom installation is user defined location path like c drive or d drive or etc., in that location the python will be installed but we need to select the "Add python 3.x to path" if not the python interpreter will not work in command prompt
