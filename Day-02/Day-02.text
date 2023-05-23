@@ -1,0 +1,47 @@
+Day-02[23-05-2023]:
+===================
+	
+	Good Morning to All..
+
+	Try to rename your names in Zoom meeting as
+	rollnumber-yourname-collegecode
+
+	Dont use only names because we cant consider those as present
+
+	Registration Process
+
+	Python Downloads
+	Python Installation 
+	Python Version Check
+
+	Python Execution Ways:
+	======================
+	- Basic Procedure [Notepad + Interpreter]
+	- Advanced Editor [Geany,Sublime,Notepad++,Editplus]
+	- IDLE
+	- Jupyter Notepad
+
+	To save python files we need to use .py extension
+	Python version
+		- 2.xxxx
+		- 3.xxxx [we are using]
+
+	Basic Procedure:
+	================
+	> Using Notepad and Interpreter [It is to be installed in your local systems]
+	> Open Notepad and save the file as "filename.py" we need to save the python files with .py extension by user defined locations such as [Desktop,c drive or d drive etc.,]
+	> After saving the file with some content then we need to open the file location which file is to be executed by using command prompt.
+	> We can open the command prompt where python file exists. First we need to open the location of python file in file explorer and at top we can observe the path for which folder we are navigating there we need to clear all path and type "cmd" then command prompt will be opened where the python file exists.
+	> To execute the python file in command prompt we need to type the command such as
+		=> filename.py
+			If the file is not executed then we need to mention the interpreter name because by default in local systems the python file is opened in another editors so it can't execute the python file.
+		=> python filename.py
+			Then it executes the python file
+
+	Advanced Editors:
+	=================
+	> To execute python files we can use Advanced Editors such as Geany,sublime,atom,editplus and Notepad++, etc.,
+	> In these editors each and every editor has different shortcuts to execute python file
+	> First we need to write some content in a file here we can use template or else we can code by our own syntax and after code completio we need to save the file in a particular location where user can defined
+	> After completion of code we need to execute the code by editor shortcuts here the output will be displayed in command prompt.
+	
