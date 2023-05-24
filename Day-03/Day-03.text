@@ -1,0 +1,46 @@
+Day-03[24-05-2023]:
+===================
+	Good Mornign All..
+
+	Try to rename your names in the meeting for attendance purpose
+
+		rollnumber-name-collegecode
+
+	Basic Procedure
+	Advaced Editor
+		=> command prompt
+	IDLE => shell
+	Jupyter notebook
+
+	IDLE => Integrated Development for Learning Environment [Python]
+	IDE => Integrated Development Environment
+		[vscode,pycharm,tuboc++,devc] => [geany]
+
+	Jupyter Notebook:
+	=================
+		=> python -V
+		=> pip -V
+
+	Pip:
+	===
+		- External third party packages
+			[Django,jupyter,flask,numpy,pandas]
+		- command
+			pip install <packagename>
+		- upgrade:
+			python -m pip install --upgrade pip
+
+	Jupyter notebook:
+	=================
+		- Installation
+			pip install jupyter notebook
+		- Execution
+			jupyter notebook
+		- browser
+			- tree [local file structure]
+		- extension
+			- .ipynb
+				=> I => Interactive
+				   PY => Python
+				   NB => Notebook
+			- jupyter notebook,vscode,google colab[colaboratory]
