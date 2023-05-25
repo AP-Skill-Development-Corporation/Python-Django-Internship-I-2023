@@ -1,0 +1,47 @@
+Day-04[25-05-2023]:
+===================
+	Good Morning All...
+
+	Pip:
+	====
+		- pip install <packagename>
+
+	Jupyter notebook:
+	=================
+		- cmd
+		- jupyter notebook
+
+	IDLE => fielnames.py => n number of programs
+		 => shell => [scripting]
+		 => Interactive [temporary] => idle
+
+	Jupyter Notebook: [Literate Programming]
+		=> Coding + Markdown
+		=> Coding [Python]
+		=> Markdown [Documentation]
+
+	1 cell = file.py [n numberso f. py files]
+	1 - 100
+	100 filenames.py
+	50 filename.py
+
+	n number of .py files => one .ipynb
+	Offline => jupyter notebook
+	Online => mail => Google colab[Colaboratory]
+
+	2 Formats
+		- Code
+			- command mode [blue]
+			- edit mode [green]
+		- Markdown
+			- command mode [blue]
+			- edit mode [green]
+
+	Code => Markdown => esc + m
+	Markdown => Code => esc + y
+	Insert cell above => esc + a
+	Insert cell below => esc + b
+	Delete a cell => esc + d d
+	Run present cell => cntrl + enter
+	Run cell and select below => shift + enter
+	Run cell and insert below => alt + enter
