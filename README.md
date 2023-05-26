@@ -22,3 +22,10 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - Python Concepts Like variable,assignment of it,data types,type function
   - Input and Output Formatting with sample example on each
   - Recorded Video Link [Click Here](https://drive.google.com/file/d/1XYTAWuJ0eD2luKirf0-p_r8ZjW-eO6G3/view?usp=share_link)
+
+# Day-05(26-05-2023):
+  - Operators,Keywords
+  - Conditional Statements with sample examples on each
+  - Loops Overview,range overview with sample example
+  - For Loop explanation with single and two parameters
+  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1yGafX6GGd0MsshTmqMxsFEAGFrp2ZU_c/view?usp=share_link)
