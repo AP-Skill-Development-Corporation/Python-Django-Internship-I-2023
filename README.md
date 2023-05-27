@@ -29,3 +29,11 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - Loops Overview,range overview with sample example
   - For Loop explanation with single and two parameters
   - Recorded Video Link [Click Here](https://drive.google.com/file/d/1yGafX6GGd0MsshTmqMxsFEAGFrp2ZU_c/view?usp=share_link)
+
+# Day-06(27-05-2023):
+  - While explanation with sample example
+  - Jumping Statements like continue,pass and break with sample example
+  - Inner Loops Concept
+  - Data Structures Overview
+  - List Overview with sample example
+  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1M_4B7lE1FYLknZJCKNmj9Q_bPsuEknOK/view?usp=share_link)
