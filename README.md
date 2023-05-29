@@ -37,3 +37,7 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - Data Structures Overview
   - List Overview with sample example
   - Recorded Video Link [Click Here](https://drive.google.com/file/d/1M_4B7lE1FYLknZJCKNmj9Q_bPsuEknOK/view?usp=share_link)
+
+# Day-07(29-05-2023):
+  - List and Tuple methods with sample examples on each
+  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1VyANGZlvKp6wO_v7F0ezTdNYHHbdyHZZ/view?usp=share_link)
