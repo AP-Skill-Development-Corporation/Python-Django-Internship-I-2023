@@ -41,3 +41,7 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
 # Day-07(29-05-2023):
   - List and Tuple methods with sample examples on each
   - Recorded Video Link [Click Here](https://drive.google.com/file/d/1VyANGZlvKp6wO_v7F0ezTdNYHHbdyHZZ/view?usp=share_link)
+
+# Day-08(30-05-2023):
+  - Dictionary,Set and String Overview,methods with sample examples on each
+  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1UCCf5hjSKFq6JYVfyu4CjnXt-sdW8Xrh/view?usp=share_link)
