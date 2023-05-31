@@ -45,3 +45,7 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
 # Day-08(30-05-2023):
   - Dictionary,Set and String Overview,methods with sample examples on each
   - Recorded Video Link [Click Here](https://drive.google.com/file/d/1UCCf5hjSKFq6JYVfyu4CjnXt-sdW8Xrh/view?usp=share_link)
+
+# Day-09(31-05-2023):
+  - Hackerrank Problem sample example, Function types, with returntype and with arguments sample example on it 
+  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1VnWHzZHS5edNCqzGxt4cnuo7wO7WHvgG/view?usp=drive_link)
