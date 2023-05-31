@@ -48,4 +48,4 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
 
 # Day-09(31-05-2023):
   - Hackerrank Problem sample example, Function types, with returntype and with arguments sample example on it 
-  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1VnWHzZHS5edNCqzGxt4cnuo7wO7WHvgG/view?usp=drive_link)
+  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1VnWHzZHS5edNCqzGxt4cnuo7wO7WHvgG/view?usp=sharing)
