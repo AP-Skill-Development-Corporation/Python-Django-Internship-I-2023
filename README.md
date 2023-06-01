@@ -53,5 +53,5 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
 # Day-10(01-06-2023):
   - With returntype and without arguments,without returntype and with arguments,without returntype and without arguments
   - Function argument types
-  - Default,keyword and Requiredd or positional argument types with sample examples on each
+  - Default,Keyword and Required or positional argument types with sample examples on each
   - Recorded Video Link [Click Here](https://drive.google.com/file/d/1x7XMDCugEJ-pq3ylvDK5QSnAhYcpKMKf/view?usp=drive_link)
