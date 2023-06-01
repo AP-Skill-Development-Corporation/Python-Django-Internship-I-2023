@@ -49,3 +49,9 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
 # Day-09(31-05-2023):
   - Hackerrank Problem sample example, Function types, with returntype and with arguments sample example on it 
   - Recorded Video Link [Click Here](https://drive.google.com/file/d/1VnWHzZHS5edNCqzGxt4cnuo7wO7WHvgG/view?usp=sharing)
+
+# Day-10(01-06-2023):
+  - With returntype and without arguments,without returntype and with arguments,without returntype and without arguments
+  - Function argument types
+  - Default,keyword and Requiredd or positional argument types with sample examples on each
+  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1x7XMDCugEJ-pq3ylvDK5QSnAhYcpKMKf/view?usp=drive_link)
