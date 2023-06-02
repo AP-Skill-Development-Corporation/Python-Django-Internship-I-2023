@@ -55,3 +55,7 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - Function argument types
   - Default,Keyword and Required or positional argument types with sample examples on each
   - Recorded Video Link [Click Here](https://drive.google.com/file/d/1x7XMDCugEJ-pq3ylvDK5QSnAhYcpKMKf/view?usp=drive_link)
+
+# Day-11(02-06-2023):
+  - Variable Length argument type with sample example on it.
+  - Recorded Video Link [Click Here](https://drive.google.com/file/d/19TB5nNGsMj-_cLaXMqUQHDQER0sxQ2j0/view?usp=sharing)
