@@ -59,3 +59,8 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
 # Day-11(02-06-2023):
   - Variable Length argument type with sample example on it.
   - Recorded Video Link [Click Here](https://drive.google.com/file/d/19TB5nNGsMj-_cLaXMqUQHDQER0sxQ2j0/view?usp=sharing)
+
+# Day-12(03-06-2023):
+  - Task Explanation on Contact Application with function types
+
+
