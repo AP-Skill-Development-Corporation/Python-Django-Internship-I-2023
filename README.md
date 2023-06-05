@@ -63,4 +63,7 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
 # Day-12(03-06-2023):
   - Task Explanation on Contact Application with function types
 
-
+# Day-13(05-06-2023):
+  - Packages and Modules with sample example on it
+  - Files Overview,reading procedure with sample example on it
+  - Recorded Video Link [Click Here]()
