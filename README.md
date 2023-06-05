@@ -65,5 +65,5 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
 
 # Day-13(05-06-2023):
   - Packages and Modules with sample example on it
-  - Files Overview,reading procedure with sample example on it
+  - Files Concept Overview,reading procedure with sample example on it
   - Recorded Video Link [Click Here]()
