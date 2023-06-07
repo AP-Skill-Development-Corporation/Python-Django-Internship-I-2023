@@ -71,3 +71,7 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
 # Day-14(06-06-2023):
   - Files Concept Overview, Writing,Appending and Reading procedure with sample example on it.
   - Recorded Video Link [Click Here]()
+
+# Day-15(07-06-2023):
+  - Comprehensions Overview, Functional Programming Overview and sample examples on each
+  - Recorded Video Link [Click Here]()
