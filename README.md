@@ -75,3 +75,8 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
 # Day-15(07-06-2023):
   - Comprehensions Overview, Functional Programming Overview and sample examples on each
   - Recorded Video Link [Click Here]()
+
+# Day-16(08-06-2023):
+  - Iterator and Generator with sample example on it
+  - OOPS Concepts Overview
+  - Recorded Video Link [Click Here]()
