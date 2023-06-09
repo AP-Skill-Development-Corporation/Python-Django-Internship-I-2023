@@ -80,3 +80,9 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - Iterator and Generator with sample example on it
   - OOPS Concepts Overview
   - Recorded Video Link [Click Here]()
+
+# Day-17(09-06-2023):
+  - class and instance attributes with sample example
+  - class and instance methods with sample example
+  - static method with sample example
+  - Recorded Video Link [Click Here]()
