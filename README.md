@@ -86,3 +86,9 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - class and instance methods with sample example
   - static method with sample example
   - Recorded Video Link [Click Here]()
+
+# Day-18(10-06-2023):
+  - Inheritance types Overview
+  - Single andd Multi Level Inheritance with sample example on it
+  - HTML5,CSS# Overview
+  - Recorded Video Link [Click Here]()
