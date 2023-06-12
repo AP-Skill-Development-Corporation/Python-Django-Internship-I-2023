@@ -92,3 +92,9 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - Single andd Multi Level Inheritance with sample example on it
   - HTML5,CSS3 Overview
   - Recorded Video Link [Click Here]()
+
+# Day-19(12-06-2023):
+  - Django Installation and Version Check
+  - Project Creation and Overview of Files in it
+  - Running of a Project
+  - Recorded Video Link [Click Here]()
