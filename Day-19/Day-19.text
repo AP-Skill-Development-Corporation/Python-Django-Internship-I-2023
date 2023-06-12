@@ -1,0 +1,71 @@
+Day-19[12-06-2023]:
+===================
+	Good Morning All...
+
+	Jan Bhagidari Program Link:
+	===========================
+	https://play.google.com/store/apps/details?id=com.nsdcindia.skillindiaplatform
+
+	Event Code: 3601011
+
+	Django Introduction:
+	====================
+
+	Frontend: HTML5,CSS3,Javascript,Jquery
+			  Bootstrap-4,5 => Library
+
+	Backend: Python,Php,Java,.net
+			 Python Framework => Django
+
+	Database: Mysql,Postgres,Monogodb
+			  Sqlite3 => Default for Django
+
+
+	Django Installation:
+	====================
+		- Python Check
+			=> python -V
+		- Pip Check
+			=> pip -V
+
+	- cmd
+	- pip install django==3.0
+				or
+	  pip install django [Latest Package]
+
+	Django Version Check:
+	=====================
+	- cmd
+	- django-admin --version
+
+	Project Creation:
+	=================
+	- Need to select Folder Location
+	- cmd
+	- django-admin startproject projectname
+
+	Project folder Overview:
+	========================
+	 - projectname => Folder [Admin App]
+	 - manage.py => services [django-admin]
+
+	Project Folder:
+	===============
+	- init => It can be considered as a python file
+	- asgi => Asynchronous Gateway Interface [Production]
+	- wsgi => Web Server Gateway Interface [Production]
+	- urls => It checks whether the url is created for a project
+	- settings => All Configurations can be modified here
+
+	Project Running:
+	================
+	- cmd
+	- we need to open the folder path in cmd where manage.py file exists
+	- python manage.py runserver
+				or
+	  manage.py runserver
+	- browser => Chrome,Brave,Mozilla
+		- http://127.0.0.1:8000
+		- 127.0.0.1 => localhost
+		- 8000 => port number
+	
