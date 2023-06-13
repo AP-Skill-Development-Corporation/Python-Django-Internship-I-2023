@@ -1,0 +1,92 @@
+Day-20[13-06-2023]:
+===================
+	Good Mornign All..
+
+	Yesterdays concept:
+	===================
+	- Django Installation
+	- Django Version check
+	- Project Creation and Overview of Files
+	- Project Running
+
+	Todays Concept:
+	===============
+
+	Port Blocked:
+	=============
+	- cmd
+	- Where manage.py file exists we need to open the command prompt
+	- python manage.py runserver portnumber
+	  python manage.py runserver 8888
+	- browser
+		http://127.0.0.1:8888
+		http://localhost:8888
+
+	Server Stopping:
+	================
+		- cntr + b
+
+	Django Introduction:
+	====================
+		- Rapid Web Development Programming
+		- Python 
+		- 2003 Lawrence Journal World Newspaper
+		- Web Progammers
+			=> Adrian Holovaty
+			=> Simon Willison
+		- Release July 2005
+		- 0.9 => 4.0.3 March 2022
+
+
+	Applications:
+	=============
+		- youtube
+		- pintrest
+		- mozilla
+
+	Features:
+	=========
+		- cross Platform
+		- security
+		- free ware
+		- user authentications
+		- ORM
+		- Large applications
+
+	Disadvantages:
+	==============
+		- Error Rectification
+		- small project
+
+	UserApp Creation:
+	=================
+		- cmd
+		- python manage.py startapp appname
+						or
+		  manage.py startapp appname
+
+	User App Overview:
+	==================
+		- migrations => Table Creations [Inheritance]
+		- init => Interpreter just to consider this as python file
+		- admin => User tables,List format => For admin access
+		- apps => Application Configuration
+		- models => Table Creation,fields,datatype => Database 
+		- tests => Unit/black box testing
+		- views => Logic, Functions to access, Actions
+
+
+	path:
+	=====
+		path('urlname/',modulename.functionname,name="url to access")
+			urlname => Browser url
+			modulename.functioname => views => Logic
+			name => anchor tags => button
+	
+
+	client -> request  -> server[views]
+		   <- response <-	
+
+	url => views => browser
+		   
+	from django.http import HttpResponse
