@@ -98,3 +98,9 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - Project Creation and Overview of Files in it
   - Running of a Project
   - Recorded Video Link [Click Here]()
+
+# Day-20(13-06-2023):
+  - Django Introduction
+  - UserApp Creation and Overview of Files in it
+  - Dynamic Url Mapping with two parameters and a sample example on it
+  - Recorded Video Link [Click Here]()
