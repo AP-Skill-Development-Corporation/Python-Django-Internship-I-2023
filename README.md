@@ -104,3 +104,8 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - UserApp Creation and Overview of Files in it
   - Dynamic Url Mapping with two parameters and a sample example on it
   - Recorded Video Link [Click Here]()
+
+# Day-21(14-06-2023):
+  - html tag,inline and internal css,javascript access in HttpResponse with sample example on it
+  - Template folder creation and accessing of .html file from it
+  - Recorded Video Link [Click Here]()
