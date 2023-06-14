@@ -1,0 +1,33 @@
+Day-21[14-06-2023]:
+===================
+	Good Morning All..
+
+	Yesterdays Concept:
+	===================
+	- UserApp Creation,Overview of Files in it and Configuration of it
+	- Dynamic URL Mapping with two or more parameters with sample example on it
+	- path,HttpResponse
+
+	Todays Concept:
+	===============
+
+	url => view
+	===========
+		- html tags
+		- inline and internal css
+		- javascript access
+		- html file access
+
+	render:
+	=======
+	render(selfparameter,'.html file location',dictionary)
+
+	Template Folder Creation and accessing of .html file
+	
+	templates => userApp
+			  => Folder Create
+			  => outside of folder [.html]
+			  => folder .file
+
+	=> INSTALLED_APPS => Userapp should be Configured
+	=> file location should be accessed from templates folder only with exact .html file name 
