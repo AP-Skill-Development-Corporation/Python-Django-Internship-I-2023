@@ -109,3 +109,7 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - html tag,inline and internal css,javascript access in HttpResponse with sample example on it
   - Template folder creation and accessing of .html file from it
   - Recorded Video Link [Click Here]()
+
+# Day-22(15-06-2023):
+  - Internal css for a .html file
+  - Recorded Video Link [Click Here]()
