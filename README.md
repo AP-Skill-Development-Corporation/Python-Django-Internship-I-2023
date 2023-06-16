@@ -113,3 +113,10 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
 # Day-22(15-06-2023):
   - Internal css for a .html file
   - Recorded Video Link [Click Here]()
+
+# Day-23(16-06-2023):
+  - Internal js accessing for a .html file
+  - Static File Handling css,js file access to a .html file
+  - Bootstrap-4 Overview
+  - Index page by using bootstrap-4 library
+  - Recorded Video Link [Click Here]()
