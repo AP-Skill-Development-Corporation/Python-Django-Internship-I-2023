@@ -1,0 +1,72 @@
+Day-23[16-06-2023]:
+===================
+	Good Morning All..
+
+	Rules of Online Etiquette:
+	==========================
+		- Respect other peoples time
+		- Make yourself look good online
+		- Share expert knowledge
+		- Keep disagreement healthy
+		- Dont abuse your power
+		- Respect other peoples privacy
+
+	Yesterdays concept:
+	===================
+	Internal css for a html file using it from templates fodler
+
+
+	Todays Concept:
+	===============
+
+	Static File Handling:
+	=====================
+	Static => To Access external css,js,images,audio or video files to an app
+
+	Preferences for static file access to html file
+		- css
+		- jquery
+		- js
+		
+		- We need to create static folder in userapp
+
+			css:
+				configure these lines in .html file
+				
+				{% load static %}
+
+				link tag => href="{% static 'css/filename.css' %}"
+
+
+			js:
+				configure these lines in .html file
+
+				If not configured for css then we need to configure for js access
+
+				{% load static %}
+
+				script => src="{% static 'js/filename.js' %}"
+
+	Bootstrap-4:
+	============
+		- inbuilt css,js
+		- reponsive pages
+
+
+	Online => Internet
+	Offline => .zip file => download
+
+	Bootstrap-4 Concepts:
+	=====================
+		- grid system
+		- container
+		- jumbotron
+		- card
+		- navbar
+		- colors
+		- button
+		- form-controls
+
+
+
+
