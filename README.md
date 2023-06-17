@@ -120,3 +120,9 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - Bootstrap-4 Overview
   - Index page by using bootstrap-4 library
   - Recorded Video Link [Click Here]()
+
+# Day-24(17-06-2023):
+  - Grid System,margin,card,padding,border,shadow,button Overview with sample example on each
+  - Interface between controller to templates
+  - Data rendering from HTML to views and then views to another template
+  - Recorded Video Link [Click Here]()
