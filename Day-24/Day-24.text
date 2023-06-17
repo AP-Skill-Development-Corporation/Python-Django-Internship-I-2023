@@ -1,0 +1,109 @@
+Day-24[17-06-2023]:
+===================
+	Good Morning All..
+
+	Rules of Online Etiquette:
+	==========================
+		- Respect other peoples time
+		- Make yourself look good online
+		- Share expert knowledge
+		- Keep disagreement healthy
+		- Dont abuse your power
+		- Respect other peoples privacy
+
+	Yesterdays Concept:
+	===================
+	Internal js accessing
+	static File handling [css,js]
+	Bootstrap-4 Overview
+
+	Todays Concept:
+	===============
+
+	Grid System:
+	============
+	1 Webpage => 12 columns
+
+	5 device
+	very small => xm
+	small => sm
+	medium => md
+	large => lg
+	extra large => xl
+
+	margins
+	=======
+	Points => 1 - 5
+	m -> all directions
+	ml -> margin-left
+	mr -> margin-right
+	mt -> margin-top
+	mb -> margin-bottom
+	mx -> left and right
+	my -> top and bottom
+
+	Paddings
+	========
+	Points => 1 - 5
+	p -> all directions
+	pl -> paddding-left
+	pr -> paddding-right
+	pt -> paddding-top
+	pb -> paddding-bottom
+	px -> left and right
+	py -> top and bottom
+
+	colors:
+	=======
+	Useage: background,border,text,alerts,button
+
+	success => green
+	primary => dark blue
+	secondary => grey
+	warning => yellow
+	danger => red
+	light,white => white
+	dark => black
+	info => skyblue
+
+	Form Methods:
+	=============
+		- Get
+		- Post
+	Data Submission to Database
+
+	Get:
+	====
+		- Data can be displayed in url of a browser
+		- Secure info is diplayed for other users
+		- small amount of characters will be stored in url
+		- 2024 charcters
+		- form default method is get
+
+	POST:
+	=====
+		- Secure information submission
+		- It will not displays the input value to a user
+		- It exceeds more characters then get
+		- form submission
+
+	url => views => .html
+	url => views => .html => views
+	url => views => .html => views => another.html
+
+	DTL Language:
+	=============
+		tempalate views
+
+	variable: {{variablename}}
+	script,link : {% load static %}
+		{% static 'folder/filename.extension' %}
+	url: {% url 'urlname' %}
+	form submission: {% csrf_token %}
+
+		
+
+
+
+
+
