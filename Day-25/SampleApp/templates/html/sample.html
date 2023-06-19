@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Static File</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/second.css' %}">
+	<!-- <script type="text/javascript">
+		alert('Hi Welcome User');	
+	</script> -->
+	<script type="text/javascript" src="{% static 'js/test.js' %}"></script>
+</head>
+<body> 
+	<h3>Registration</h3>
+	<form>
+		<label>Student ID</label>
+		<input type="text" name="" placeholder="Id"><br>
+		<label>Student Name</label>
+		<input type="text" name=""><br>
+		<label>Student Email</label>
+		<input type="email" name=""><br>
+		<label>Student Age</label>
+		<input type="number" name=""><br><br>
+	<button>Clear</button>
+	<button id="t">Submit</button>
+	</form>
+</body>
+</html>

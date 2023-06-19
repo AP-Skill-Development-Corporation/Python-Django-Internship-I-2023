@@ -1,0 +1,129 @@
+Day-25[19-06-2023]:
+===================
+	Good Morning All..
+
+	Rules of Online Etiquette:
+	==========================
+		- Respect other peoples time
+		- Make yourself look good online
+		- Share expert knowledge
+		- Keep disagreement healthy
+		- Dont abuse your power
+		- Respect other peoples privacy
+
+	Previous Day Concept:
+	=====================
+	- Grid system
+	- Margin,Padding,Cards,color,button
+	- Form methods => [GET,POST]
+	- Data rendering from controller to template and then to another template
+
+	Todays Concept:
+	===============
+
+	Main Controllers in Django: urls.py and views.py
+
+	Database: CRUD Operations
+
+		C => Create
+		R => Reading/Display
+		U => Update
+		D => Delete
+
+	Architecture of Django:
+	=======================
+	MVT Design Pattern => Django
+		M => Model
+		V => View
+		T => Template
+
+	MVC Design Pattern => Yii,Larvel,Wordpress,springboot
+
+		M => Model
+		V => View
+		C => Controller
+
+	models.py:
+	==========
+		Table,Field
+
+
+		table creation:
+			appname_classname
+
+			row => record
+			column => Field
+		Server => stop
+
+		Own Table:
+			- python manage.py makemigrations
+			- migrations 
+				=> 0001_initial.py => Interfacing File
+			- Inheritance
+			- X
+
+			- python manage.py migrate
+				=> All tables will be created
+
+	Shell:
+	=====
+	ORM Queries:
+	============
+		O => Object 
+		R => Relational
+		M => Mapper
+
+	shell
+		=> from appname.model import classname
+
+	Create: [Insert]
+	================
+		Save():
+		=======
+			-> objectname = classname(fieldname=value)
+			-> objectname.save() 
+		Create():
+		=========
+			-> objectname = classname.objects.create(fieldname=value)
+		Bulk_create():
+		==============
+			-> objectname = classname.objects.bulk_create([
+				classname(id,values,values,),
+				classname(id,values,values,),
+			])
+
+	Reading: [Display]
+	==================
+		GET:
+		====
+			- It is used only for Unique values	
+			- If the record is not in the table then it displays an error
+			- It can be accessed as
+
+				objectname = classname.objects.get(fieldname=value)
+				objectname.fieldname
+
+		Filter:
+		=======
+			- It is used for accessing duplicate values in the table
+			- If the record is not in the table it will shows empty list
+			- It can be accessed as
+				Single value:
+					objectname = classname.objects.get(fieldname=value)
+					objectname.fieldname
+
+				By using Loop:
+					objectname = classname.objects.filter(fieldname=value)
+
+					for iterationvariablename in objectname:
+						print(iterationvariablename.fieldname)
+		All:
+		====
+			- It access all values in table
+
+			By using Loop:
+					objectname = classname.objects.filter(fieldname=value)
+
+					for iterationvariablename in objectname:
+						print(iterationvariablename.fieldname)
+		
