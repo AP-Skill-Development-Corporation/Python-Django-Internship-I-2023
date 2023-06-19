@@ -126,3 +126,10 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - Interface between controller to templates
   - Data rendering from HTML to views and then views to another template
   - Recorded Video Link [Click Here]()
+
+# Day-25(19-06-2023):
+  - Architecture of Django
+  - Differences between MVC and MVT Design Patterns
+  - Model Creation,makemigrations,migrate command and ORM Overview
+  - Model Queries for Creating and Displaying in a shell
+  - Recorded Video Link [Click Here]()
