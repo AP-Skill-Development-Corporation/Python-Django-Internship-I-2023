@@ -1,0 +1,132 @@
+Day-26[20-06-2023]:
+===================
+	Good Morning All..
+
+	Rules of Online Etiquette:
+	==========================
+		- Respect other peoples time
+		- Make yourself look good online
+		- Share expert knowledge
+		- Keep disagreement healthy
+		- Dont abuse your power
+		- Respect other peoples privacy
+
+	Yesterdays Concept:
+	===================
+		- Architecture of Django
+		- Difference Between MVC and MVT
+		- Model Creation
+		- Makemigrations and migrate,ORM Queries
+		- Model Queries in Shell
+		- Create => create,save and bulk_create
+		- Reading => get,filter and all
+
+	Todays concept:
+	===============
+		Reading:
+		========
+			Slicing:
+			--------
+				single:
+				-------
+				objectname = classname.objects.all()[indexvalue]
+				objectname.fieldname
+				two parameters:
+				---------------
+				objectname = classname.objects.all()[startindex:stopindex]
+				for iterationvariablename in objectname:
+					print(iterationvariablename.fieldname)
+				Reverse:
+				--------
+				objectname = classname.objects.all()[::-1]
+				for iterationvariablename in objectname:
+					print(iterationvariablename.fieldname)
+				Last value:
+				-----------
+				objectname = classname.objects.all()[::-1][0]
+				objectname.fieldname
+
+			First:
+			------
+			objectname = classname.objects.all().first()
+			print(objectname.fieldname)
+
+			objectname = classname.objects.all()[0]
+			print(objectname.fieldname)
+
+			objectname = classname.objects.all()[0].fieldname
+			print(objectname)
+
+			last:
+			------
+			objectname = classname.objects.all().last()
+			print(objectname.fieldname)
+
+			objectname = classname.objects.all()[::-1][0]
+			print(objectname.fieldname)
+
+			objectname = classname.objects.all()[::-1][0].fieldname
+			print(objectname)
+
+			in_bulk:
+			--------
+			objectname = classname.objects.in_bulk([indexposition,indexposition])
+
+			for i in objectname.items():
+				print(i[0],i[1])
+
+		Update:
+		=======
+			single:
+			-------
+			objectname = classname.objects.get(fieldname=value)
+			objectname.fieldname = newvalue
+			objectname.save()
+
+			2 or more[Duplicate]:
+			---------------------
+			objectname = classname.objects.filter(fieldname=value).update(fieldname=newvalue)
+
+			all records:[Particular Column]:
+			--------------------------------
+			objectname = classname.objects.all().update(fieldname=newvalue)
+
+		Orderby:
+		========
+			Ascending:
+			----------
+			objectname = classname.objects.order_by('fieldname')
+			for iterationvariablename in objectname:
+				print(iterationvariablename.fieldname)
+
+			Descending:
+			-----------
+			objectname = classname.objects.order_by('-fieldname')
+			for iterationvariablename in objectname:
+				print(iterationvariablename.fieldname)
+
+
+		Delete:
+		=======
+			single:
+			-------
+				objectname = classname.objects.get(fieldname=value)
+				objectname.delete()
+
+			2 or more records [Duplicate]:
+			------------------------------
+				objectname = classname.objects.filter(fieldname=value)
+				objectname.delete()
+
+				objectname = classname.objects.filter(fieldname=value).delete()
+
+			all records:
+			------------
+				objectname = classname.objects.all().delete()
+
+	Forms => CRUD operations
+	Completed front end for CRUD Operations on Student Class Model
+
+
+
+
