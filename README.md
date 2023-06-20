@@ -133,3 +133,9 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - Model Creation,makemigrations,migrate command and ORM Overview
   - Model Queries for Creating and Displaying in a shell
   - Recorded Video Link [Click Here]()
+
+# Day-26(20-06-2023):
+  - Displaying,Update and Delete by using ORM Queries in Shell
+  - Superuser Creation
+  - Completed Front end for CRUD Operatiosn on Student Model Class
+  - Recorded Video Link [Click Here]() 
