@@ -138,4 +138,9 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - Displaying,Update and Delete by using ORM Queries in Shell
   - Superuser Creation
   - Completed Front end for CRUD Operations on Student Model Class
-  - Recorded Video Link [Click Here]() 
+  - Recorded Video Link [Click Here]()
+
+# Day-27(21-06-2023):
+  - CRUD Operations by using Basic Procedure with frontend
+  - Template Blocks and Bootstrap Offine procedure with sample example on each
+  - Recorded Video Link [Click Here]()
