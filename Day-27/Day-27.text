@@ -1,0 +1,34 @@
+Day-27[21-06-2023]:
+===================
+	Good Morning All..
+
+	Rules of Online Etiquette:
+	==========================
+		- Respect other peoples time
+		- Make yourself look good online
+		- Share expert knowledge
+		- Keep disagreement healthy
+		- Dont abuse your power
+		- Respect other peoples privacy
+
+	Yesterdays Concept:
+	===================
+		- Displaying => first,last,slicing,in_bulk
+		- Update => get, filter, column, all field columns
+		- Order_by => Ascending and Descending of field values
+		- Delete => get, filter and all
+		- Completed Design part for CRUD operations
+
+	Todays Concept:
+	===============
+
+	redirect:
+	=========
+		- from django.shortcuts import render,redirect
+		- We need to mention only url name of path
+		- It access only in views.py
+		- By default we didnt have any url names so we can prefered as "/"
+
+	CRUD Operations Completed in Basic Procedure Without forms concept
+
+	Template Blocks and Offline Procedure to access Bootstrap files
