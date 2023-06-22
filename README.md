@@ -144,3 +144,9 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - CRUD Operations by using Basic Procedure with frontend
   - Template Blocks and Bootstrap Offine procedure with sample example on each
   - Recorded Video Link [Click Here]()
+
+# Day-28(22-06-2023):
+  - Model field changes, Forms Concept Overview
+  - Widgets usegae for forms
+  - Completed Creating Student record by using Forms for Student model
+  - Recorded Video Link [Click Here]()
