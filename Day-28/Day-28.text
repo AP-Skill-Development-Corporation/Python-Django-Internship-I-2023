@@ -1,0 +1,35 @@
+Day-28[22-06-2023]:
+===================
+	Good Morning All..
+
+	Rules of Online Etiquette:
+	==========================
+		- Respect other peoples time
+		- Make yourself look good online
+		- Share expert knowledge
+		- Keep disagreement healthy
+		- Dont abuse your power
+		- Respect other peoples privacy
+
+	Yesterdays Concept:
+	===================
+		- crud Operations by using front end
+		- redirect
+		- template blocks
+
+	Todays Concept:
+	===============
+		url => views => Controller
+
+		controller => template => controller => database
+		
+		controller => forms => model => controller => template
+
+		template => controller => forms => model
+
+		Completed Forms concept for creating student
+		widgets
+
+
+
+
