@@ -150,3 +150,8 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - Widgets usegae for forms
   - Completed Creating Student record by using Forms for Student model
   - Recorded Video Link [Click Here]()
+
+# Day-29(23-06-2023):
+  - CRUD Operations by using Forms Concept
+  - Created Contact form by using Bootstrap
+  - Recorded Video Link [Click Here]()
