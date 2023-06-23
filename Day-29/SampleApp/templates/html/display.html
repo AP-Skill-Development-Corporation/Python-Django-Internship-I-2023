@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Registration</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="{% url 'hm' %}">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'abt' %}">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'ct' %}">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'rg' %}">Registration</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<br>
+<div class="container">
+  <div class="card col-md-6 mx-auto shadow-lg">
+    <div class="card-body">
+      <h4 class="bg-info text-ligh text-center p-2">Details</h4>
+      <h4>Student Name: <span>{{b}}</span></h4>
+      <h4>Student Roll Number: <span>{{a}}</span></h4>
+      <h4>Student Email: <span>{{c}}</span></h4>
+      <h4>Student Age: {{d}}<span></span></h4>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

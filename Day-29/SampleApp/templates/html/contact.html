@@ -1,0 +1,17 @@
+{% extends 'html/base.html' %}
+{% block content %}
+<div class="container mt-4">
+  <div class="card col-md-6 mx-auto shadow-lg">
+    <div class="card-body">
+      <h4>Contact </h4>
+      <form method="post">
+        {% csrf_token %}
+        <input type="email" name="em" class="form-control my-2" placeholder="Enter email">
+        <input type="text" name="sb" class="form-control my-2" placeholder="Enter Subject">
+        <textarea class="form-control my-2" name="des" placeholder="Enter Message Here" rows="5"></textarea>
+        <input type="submit" value="Send Email" class="btn btn-success form-control">
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}
