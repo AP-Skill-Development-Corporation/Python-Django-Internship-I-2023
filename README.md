@@ -155,3 +155,7 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - CRUD Operations by using Forms Concept
   - Created Contact form by using Bootstrap
   - Recorded Video Link [Click Here]()
+
+# Day-30(24-06-2023):
+  - Mail concept with configuration and sending,messages concept with sample example on it 
+  - Recorded Video Link [Click Here]()
