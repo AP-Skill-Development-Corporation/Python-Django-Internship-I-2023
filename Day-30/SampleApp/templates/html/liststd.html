@@ -1,0 +1,56 @@
+{% extends 'html/base.html' %}
+{% block content %}
+<div class="container mt-5">
+  <div class="row">
+    <div class="card col-md-4 shadow-lg mx-2 h-100">
+      <h3 class="bg-secondary my-2 p-2 text-light border rounded">Add Student</h3>
+      <div class="card-body">
+        <form method="post">
+          {% csrf_token %}
+          {% for i in w %}
+            {{i}}
+          {% endfor %}
+          <div class="row my-1">
+            <div class="col">
+              <input type="reset" value="Clear" class="btn btn-danger form-control">
+            </div>
+            <div class="col">
+              <input type="submit" value="Add" class="btn btn-success form-control">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="card col shadow-lg h-100">
+      <h3 class="bg-info my-2 p-2 text-light border rounded">List of Students</h3>
+      <table class="table table-hover table-striped">
+        <tr class="bg-dark text-light">
+          <th>Sno</th>
+          <th>Roll Number</th>
+          <th>Name</th>
+          <th>Year</th>
+          <th>Actions</th>
+        </tr>
+        {% for i in n %}
+        <tr>
+          <td>{{forloop.counter}}</td>
+          <td>{{i.sroll}}</td>
+          <td>{{i.sname}}</td>
+          <td>{{i.syear}}</td>
+          <td>
+            <div class="row">
+              <div class="col">
+                <a href="{% url 'stst' i.id %}" class="btn btn-primary form-control">Edit</a>
+              </div>
+              <div class="col">
+                <a href="{% url 'sdd' i.id %}" class="btn btn-danger form-control">Delete</a>
+              </div>
+            </div>
+          </td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </div>
+</div>
+{% endblock %}

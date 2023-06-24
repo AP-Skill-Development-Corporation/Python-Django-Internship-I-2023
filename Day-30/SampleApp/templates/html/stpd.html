@@ -1,0 +1,24 @@
+{% extends 'html/base.html' %}
+{% block content %}
+<div class="container mt-5">
+	<div class="card col-md-6 mx-auto shadow-lg">
+		<h3 class="bg-secondary text-light p-2 my-2 border rounded">Update Student <span class="text-warning">{{p.sname}}</span></h3>
+		<div class="card-body">
+			<form method="post">
+				{% csrf_token %}
+				{% for i in d %}
+					{{i}}
+				{% endfor %}
+				<div class="row">
+					<div class="col">
+						<a href="{% url 'stdtls' %}" class="btn btn-warning form-control">Back</a>
+					</div>
+					<div class="col">
+						<input type="submit" value="Update Student" class="btn btn-success form-control">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+{% endblock %}
