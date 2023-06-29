@@ -1,0 +1,27 @@
+{% extends 'html/base.html' %}
+{% block content %}
+<div class="container mt-4">
+	<div class="card col-md-6 mx-auto shadow-lg p-2 my-2">
+		<h3 class="bg-warning text-light border rounded p-2 my-2">Delete Student</h3>
+		<div class="card-body">
+			<form method="post">
+				{% csrf_token %}
+				<h5>Are you Sure want to Delete?</h5>
+				<p>Student Name: {{a.sname}}</p>
+				<p>Roll Number: {{a.sroll}}</p>
+				<p>Year: {{a.syear}}</p>
+				<p>Branch: {{a.sbranch}}</p>
+				<p>Age: {{a.sage}}</p>
+				<div class="row">
+					<div class="col">
+						<a href="{% url 'stdtls' %}" class="btn btn-info form-control">No</a>
+					</div>
+					<div class="col">
+						<input type="submit" value="Yes confirm" class="btn btn-success form-control">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+{% endblock %}
