@@ -136,4 +136,9 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - Recorded Video Link [Click Here]()
 # Day-34(29-06-2023):
   - User Registration and Authentication with sample example on it
-  - Recorded Video Link [Click Here]() 
+  - Recorded Video Link [Click Here]()
+# Day-35(30-06-2023):
+  - New Project and App Creation
+  - Static and Templates folder configurations in settings.py and accessing of it
+  - Activating Links in Navbar by using DTL
+  - Recorded Video Link [Click Here]()
