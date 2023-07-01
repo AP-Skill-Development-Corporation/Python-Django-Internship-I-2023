@@ -142,3 +142,7 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - Static and Templates folder configurations in settings.py and accessing of it
   - Activating Links in Navbar by using DTL
   - Recorded Video Link [Click Here]()
+# Day-36(01-07-2023):
+  - Super User Creation
+  - Abstract User Class and Roles of Users
+  - Recorded Video Link [Click Here]()
