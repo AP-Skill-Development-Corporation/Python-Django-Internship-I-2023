@@ -1,0 +1,55 @@
+Day-36[01-07-2023]:
+===================
+	Good Morning All..
+
+	Rules of Online Etiquette:
+	==========================
+		- Respect other peoples time
+		- Make yourself look good online
+		- Share expert knowledge
+		- Keep disagreement healthy
+		- Dont abuse your power
+		- Respect other peoples privacy
+
+	Yesterday Concept:
+	==================
+		- New Project and App Creation
+		- Static and Template folder Configurations
+		- Url access by using include
+		- Activating links in navbar 
+
+	Todays Concept:
+	===============
+		- 
+
+	auth_user
+	 => password,username,is_active,last_login,date_of_join,first_name,last_name,is_superuser,role_type
+	 	guest
+	 	teacher
+	 	student
+	 	hod
+
+	 roles:
+	  => user_id,role => teacher,student,hod
+
+	Teacher:
+	========
+		Profile:
+			mobile,age,designation,experience,subjects,status
+
+		assignments => create,update,read,delete
+		asno,asname,branch,year,subject,startdate,enddate,desc,marks,created_by,asstatus
+
+
+	Student:
+	========
+		Profile:
+			rollnumber,age,year,address,branch
+
+		profile => 1 create,update,reading
+
+		assignment => read
+		submit:
+			asno,asname,subject,startdate,filesubmi,comments,marks,remarks,stsubmi,
+
+	- Role Concepts
