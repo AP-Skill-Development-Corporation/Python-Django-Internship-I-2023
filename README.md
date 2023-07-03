@@ -146,3 +146,6 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - Super User Creation
   - Abstract User Class and Roles of Users
   - Recorded Video Link [Click Here]()
+# Day-37(03-07-2023):
+  - Created Models for Teacher and Student Profiles
+  - Recorded Video Link [Click Here]() 
