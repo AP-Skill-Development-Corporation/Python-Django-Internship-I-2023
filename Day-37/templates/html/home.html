@@ -1,0 +1,21 @@
+{% extends 'html/base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="jumbotron">
+  {% if user.is_authenticated %}
+  <h4>Hi Welcome User {{request.user.username}}</h4>
+  <h6>You are 
+    {% if request.user.role_type == 1 %}
+    Student Role
+    {% elif request.user.role_type == 2 %}
+    Teacher Role
+    {% elif request.user.role_type == 0 %}
+    Guest Role
+    {% else %}
+    {% endif %}
+  </h6>
+  {% else %}
+    <h4>Welcome to this Site</h4>
+  {% endif %}
+</div>
+{% endblock %}

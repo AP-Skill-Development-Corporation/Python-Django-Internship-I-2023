@@ -1,0 +1,58 @@
+{% extends 'html/base.html' %}
+{% block title %}Profile::
+	{% if request.user.role_type == 0 %}
+	Guest
+	{% elif request.user.role_type == 1 %}
+	Student
+	{% else %}
+	Teacher
+	{% endif %}
+{% endblock %}
+{% block content %}
+<div class="row">
+	<div class="card col-md-3 shadow-lg border border-warning mx-2 my-2">
+		<h4>Profile</h4>
+		<h5>{{request.user.username}}</h5>
+	</div>
+	<div class="card col-md shadow-lg border border-info">
+		<h4>{{request.user.eid}} => Details</h4>
+		<table>
+			<tr>
+				<td>First Name</td>
+				<td>{{request.user.first_name}}</td>
+				<td>Last Name</td>
+				<td>{{request.user.last_name}}</td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td>{{request.user.email}}</td>
+				<td>Account Status</td>
+				<td>
+					{% if request.user.is_active == 1 %}
+					<h5 class="badge badge-success">Active</h5>
+					{% else %}
+					<span class="badge badge-danger">InActive</span>
+					{% endif %}
+				</td>
+				<td>Role Type</td>
+				<td>
+					{% if request.user.role_type == 0 %}
+					<h4 class="badge badge-warning">Guest</h4>
+					{% elif request.user.role_type == 1 %}
+					<h4 class="badge badge-info">Student</h4>
+					{% else %}
+					<h4 class="badge badge-success">Teacher</h4>
+					{% endif %}
+				</td>
+			</tr>
+			<tr>
+				<td>Account Created</td>
+				<td>{{request.user.date_joined}}</td>
+				<td>Last Login</td>
+				<td>{{request.user.last_login}}</td>
+			</tr>
+		</table>
+		<a href="{% url 'upfe' %}" class="btn btn-secondary my-2">Update Profile</a>
+	</div>
+</div>
+{% endblock %}

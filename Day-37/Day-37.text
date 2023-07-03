@@ -1,0 +1,32 @@
+Day-37[03-07-2023]:
+===================
+	Good Morning All..
+
+	Rules of Online Etiquette:
+	==========================
+		- Respect other peoples time
+		- Make yourself look good online
+		- Share expert knowledge
+		- Keep disagreement healthy
+		- Dont abuse your power
+		- Respect other peoples privacy
+
+	Previous Day Concept:
+	=====================
+		- Roles Concept for users
+
+	Todays Concept:
+	===============
+		- SuperUser Creation steps:
+			=> First Admin => Need to Create in Command prmpt 
+			=> cmd => c:/users/username/
+			=> python manage.py createsuperuser
+			=> username/? "admin"
+			=> email address => ?
+			=> password: => ? => xxxxxx
+			=> password again => ? => xxxxxx
+			=> password validatio => [y/n]? => y
+			=> Superuser created successfully
+
+		- Created Model for Teacher and Student Profile
+
