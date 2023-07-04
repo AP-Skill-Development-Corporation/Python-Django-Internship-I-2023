@@ -149,3 +149,6 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
 # Day-37(03-07-2023):
   - Created Models for Teacher and Student Profiles
   - Recorded Video Link [Click Here]() 
+# Day-38(04-07-2023):
+  - Form Creation and Updation for Teacher Profile
+  - Recorded Video Link[Click Here]() 
