@@ -151,4 +151,7 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - Recorded Video Link [Click Here]() 
 # Day-38(04-07-2023):
   - Form Creation and Updation for Teacher Profile
-  - Recorded Video Link[Click Here]() 
+  - Recorded Video Link [Click Here]() 
+# Day-39(05-07-2024):
+  - Student Profile Creation and Updation
+  - Recorded Video Link [Click Here]()
