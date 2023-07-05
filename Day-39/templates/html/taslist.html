@@ -1,0 +1,27 @@
+{% extends 'html/base.html' %}
+{% block title %}Assignments List{% endblock %}
+{% block content %}
+<div class="row">
+	<div class="col-md-4 card shadow-lg mx-2">
+		<div class="card-body">
+			<h3>Create Assg</h3>
+			<form>
+				<div class="row">
+					<div class="col">
+						<input type="reset" value="Clear" class="btn btn-danger form-control">
+					</div>
+					<div class="col">
+						<input type="submit" value="Create" class="btn btn-success form-control">
+					</div>
+				</div>
+
+			</form>
+		</div>
+	</div>
+	<div class="col card shadow-lg">
+		<div class="card-body">
+			<h3>List of Assgn</h3>
+		</div>
+	</div>
+</div>
+{% endblock %}
