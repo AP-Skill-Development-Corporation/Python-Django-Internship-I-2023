@@ -1,0 +1,35 @@
+{% extends 'html/base.html' %}
+{% block title %}View Assigment List{% endblock %}
+{% block content %}
+	<div class="row">
+		{% for i in e %}
+			<div class="card col-md-3 shadow-lg mx-1">
+				<div class="card-body">
+					<h5>{{i.aname}}</h5>
+					<h6>Subject {{i.asubject}}</h6>
+					<h6>Start Date {{i.astartdate}}</h6>
+					<h6>End Date {{i.aenddate}}</h6>
+					<h6>Status
+						{% if i.astatus == 1 %}
+							<p class="badge badge-success">Active</p>
+						{% else %}
+							<p class="badge badge-danger">InActive</p>
+						{% endif %}
+					</h6>
+					<form method="post">
+						{% csrf_token %}
+						<div class="row my-1">
+							<div class="col">
+								<!-- <input type="submit" value="Apply" class="btn btn-success form-control"> -->
+								<a href="{% url 'asty' i.id %}" class="btn btn-success form-control">Apply</a>
+							</div>
+							<div class="col">
+								<a href="#" class="form-control btn btn-info">View More</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+{% endblock %}

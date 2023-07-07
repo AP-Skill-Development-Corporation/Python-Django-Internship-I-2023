@@ -1,0 +1,30 @@
+{% extends 'html/base.html' %}
+{% block title %}Assignment Update{% endblock %}
+{% block content %}
+<div class="card col-md-5 mx-auto shadow-lg border rounded border-primary">
+	<div class="card-body">
+		<h4>Assignment Update</h4>
+		<form method="post">
+			{% csrf_token %}
+			{% for i in r %}
+				{% if forloop.counter == 10 %}
+					<select name="astatus" class="form-control my-2">
+						<option value="{% if astatus == 1 %}True{% endif %}True">Active</option>
+						<option value="{% if astatus == 0 %}False{% endif %}False">InActive</option>
+					</select>
+				{% else %}
+					{{i}}					
+				{% endif %}
+			{% endfor %}
+			<div class="row">
+				<div class="col">
+					<a href="{% url 'taslist' %}" class="btn btn-secondary form-control">Back</a>
+				</div>
+				<div class="col">
+					<input type="submit" class="btn btn-success form-control" value="Update">
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+{% endblock %}

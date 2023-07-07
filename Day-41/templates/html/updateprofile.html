@@ -1,0 +1,41 @@
+{% extends 'html/base.html' %}
+{% block title %}Update Profile{% endblock %}
+{% block content %}
+<div class="card col-md-5 mx-auto shadow-lg border border-primary">
+	<div class="card-body">
+		<h4>Update Profile</h4>
+		<form method="post">
+			{% csrf_token %}
+			{% if request.user.role_type == 2 %}
+				{% if request.user.teacherprofile.tstatus == 1 %}			
+					{% for j in ty %}
+						{{j}}
+					{% endfor %}
+				{% else %}
+					{% for i in t %}
+						{{i}}
+					{% endfor %}
+				{% endif %}
+			{% else %}
+				{% if request.user.studentprofile.sstatus == 1 %}
+					{% for j in hn %}
+						{{j}}
+					{% endfor %}
+				{% else %}
+					{% for k in g %}
+						{{k}}
+					{% endfor %}
+				{% endif %}
+			{% endif %}
+			<div class="row">
+				<div class="col">
+					<a href="{% url 'pf' %}" class="btn btn-info form-control">Back to Profile</a>
+				</div>
+				<div class="col">
+					 <input type="submit" value="Update" class="btn btn-success form-control">
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+{% endblock %}

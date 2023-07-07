@@ -1,0 +1,26 @@
+{% extends 'html/base.html' %}
+{% block title %}Assignment Deletion{% endblock %}
+{% block content %}
+<div class="card col-md-5 mx-auto shadow-lg border rounded border-danger">
+	<div class="card-body">
+		<h4>Assignment Deletion</h4>
+		<hr/>
+		<form method="post">
+			{% csrf_token %}
+			<h5>Are you sure want to Delete Assignment?</h5>
+			<h6>Ass Name: {{k.aname}}</h6>
+			<h6>Ass Subject: {{k.asubject}} </h6>
+			<h6>Start Date: {{k.astartdate}}</h6>
+			<h6>End Date: {{k.aenddate}}</h6>
+			<div class="row">
+				<div class="col">
+					<a href="{% url 'taslist' %}" class="btn btn-danger form-control">No</a>
+				</div>
+				<div class="col">
+					<input type="submit" value="Yes Confirm" class="btn btn-success form-control">
+				</div>
+			</div>
+		</form>
+	</div>	
+</div>
+{% endblock %}
