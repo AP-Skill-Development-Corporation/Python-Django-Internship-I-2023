@@ -158,3 +158,7 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
 # Day-40(06-07-2023):
   - Assignment Model,form Creations and Completed Creation,Updation of Assignment Table for particular Teacher role
   - Recorded Video Link [Click Here]()
+# Day-41(07-07-2023):
+  - Assignment table deletion of a record in it
+  - Completed designing for student subscription of assignments
+  - Recorded Video Link[Click Here]()
