@@ -1,0 +1,37 @@
+Day-42[08-07-2023]:
+===================
+	Good Morning All..
+
+	Rules of Online Etiquette:
+	==========================
+		- Respect other peoples time
+		- Make yourself look good online
+		- Share expert knowledge
+		- Keep disagreement healthy
+		- Dont abuse your power
+		- Respect other peoples privacy
+
+	Yesterday Concept:
+	==================
+		- Completed designing of Assignment subscription for student
+
+	Todays Concept:
+	===============
+		-
+			AssignmentSt
+				- ssubject
+				- sname
+				- sctrd
+				- ssend
+				- sasstatus => 
+					0 => Start
+					1 => Applied
+					2 => Submitted
+					3 => Verified => T
+				- samarks => .
+				- ssid => student id
+				- asid => 1
+				- trevw => T
+		- Created Student Assignment Model and Accessed the Assignment table data
+		 
+

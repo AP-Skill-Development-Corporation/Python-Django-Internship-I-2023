@@ -1,0 +1,62 @@
+{% extends 'html/base.html' %}
+{% block title %}Assignments List{% endblock %}
+{% block content %}
+<div class="row">
+	<div class="col-md-4 card shadow-lg mx-2 h-100">
+		<div class="card-body">
+			<h3>Create Assg</h3>
+			<form method="post">
+				{% csrf_token %}
+				{% for i in e %}
+					{% if forloop.counter < 10 %}
+						{{i}}
+					{% endif %}
+				{% endfor %}
+				<div class="row">
+					<div class="col">
+						<input type="reset" value="Clear" class="btn btn-danger form-control">
+					</div>
+					<div class="col">
+						<input type="submit" value="Create" class="btn btn-success form-control">
+					</div>
+				</div>
+
+			</form>
+		</div>
+	</div>
+	<div class="col card shadow-lg h-100">
+		<div class="card-body">
+			<h3>List of Assgn</h3>
+			<table class="table">
+				<tr class="bg-dark text-light">
+					<td>Sno</td>
+					<td>Asg Name</td>
+					<td>Subject</td>
+					<td>Status</td>
+					<td colspan=2>Actions</td>
+				</tr>
+				{% for j in p %}
+				<tr>
+					<td>{{forloop.counter}}</td>
+					<td>{{j.aname}}</td>
+					<td>{{j.asubject}}</td>
+					<td>
+						{% if j.astatus == 1 %}
+							<p class="badge badge-success">Active</p>
+						{% else %}
+							<p class="badge badge-danger">InActive</p>
+						{% endif %}
+					</td>
+					<td>
+						<a href="{% url 'atup' j.id %}" class="col-sm btn btn-primary">Edit</a>
+					</td>
+					<td>
+						<a href="{% url 'atdh' j.id %}" class="col-sm btn btn-danger">Delete</a>
+					</td>
+				</tr>
+				{% endfor %}
+			</table>
+		</div>
+	</div>
+</div>
+{% endblock %}
