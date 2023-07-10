@@ -1,0 +1,23 @@
+{% extends 'html/base.html' %}
+{% block title %}Upload{% endblock %}
+{% block content %}
+<div class="card col-md-5 mx-auto">
+	<div class="card-body">
+		<h3>Submit</h3>
+		<form method="post">
+			{% csrf_token %}
+			{% for i in pp %}
+				{{i}}
+			{% endfor %}
+			<div class="row">
+				<div class="col">
+					<a href="{% url 'ssblt' %}" class="btn btn-secondary form-control">Back</a>
+				</div>
+				<div class="col">
+					<input type="submit" value="Update Status" class="form-control btn btn-success">
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+{% endblock %}

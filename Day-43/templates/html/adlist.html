@@ -1,0 +1,65 @@
+{% extends 'html/base.html' %}
+{% block title %}Role{% endblock %}
+{% block content %}
+<div class="row">
+	<div class="col-md-4">
+		<div class="card card-body shadow-lg">
+			<h4>Create Users</h4>
+			<form method="post">
+				{% csrf_token %}
+				{% for i in k %}
+					{{i}}
+				{% endfor %}
+				<div class="row">
+					<div class="col">
+						<input type="reset" value="Clear" class="btn btn-danger form-control">
+					</div>
+					<div class="col">
+						<input type="submit" value="Create" class="form-control btn btn-success">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="col">
+		<div class="card card-body shadow-lg">
+			<h4>List of Users</h4>
+			<table class="table table-borderless">
+				<tr class="bg-dark text-light">
+					<th>Sno</th>
+					<th>Username</th>
+					<th>Role Type</th>
+					<td>Id</td>
+					<th>Actions</th>
+				</tr>
+				{% for j in p %}
+					<tr>
+						<td>{{forloop.counter}}</td>
+						<td>{{j.username}}</td>
+						<td>
+							{% if j.role_type == 0 %}
+								<p class="badge badge-info">Guest</p>
+							{% elif j.role_type == 1 %}
+								<p class="badge badge-warning">Student</p>
+							{% else %}
+								<p class="badge badge-success">Teacher</p>
+							{% endif %}
+						</td>
+						<td>{{j.eid}}</td>
+						<td>
+							<div class="row">
+								<div class="col">
+									<a href="{% url 'adsup' j.id %}" class="btn btn-info form-control">Edit</a>
+								</div>
+								<div class="col">
+									<a href="" class="btn btn-danger form-control">Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+				{% endfor %}
+			</table>
+		</div>
+	</div>
+</div>
+{% endblock %}

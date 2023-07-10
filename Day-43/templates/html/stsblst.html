@@ -1,0 +1,59 @@
+{% extends 'html/base.html' %}
+{% block title %}Assigment Status{% endblock %}
+{% block content %}
+<div class="card col-md mx-auto shadow-lg">
+	<div class="card-body">
+		<h4>Assignment Status</h4>
+		<table class="table table-borderless">
+			<tr class="bg-dark text-light">
+				<th>Sno</th>
+				<th>Assignment Name</th>
+				<th>Subject</th>
+				<th>Status</th>
+				<th>Actions</th>
+			</tr>
+			{% for i in p %}
+			<tr>
+				<td>{{forloop.counter}}</td>
+				<td>{{i.san}}</td>
+				<td>{{i.ssubject}}</td>
+				<td>
+					{% if i.sactive == '1' %}
+						<p class="badge badge-danger">Started</p>
+					{% elif i.sactive == '2' %}
+						<p class="badge badge-success">In Progress</p>
+					{% elif i.sactive == '3' %}
+						<p class="badge badge-warning">Submitted</p>
+					{% else %}
+						<p class="badge badge-secondary">InActive</p>
+					{% endif %}
+				</td>
+				<td>
+					<div class="row">
+						<div class="col">
+							{% if i.stactive == "3" %}
+								<a href="" class="btn btn-success form-control">Verified</a>
+							{% elif i.sactive == "0" %}
+							<a href="{% url 'supd' i.id %}" class="btn btn-danger form-control">Start</a>
+							{% elif i.sactive == "1" %}
+							<a href="{% url 'supd' i.id %}" class="btn btn-secondary form-control">Edit</a>
+							{% elif i.sactive == "2" %}
+							<a href="{% url 'ssb' i.id %}" class="btn btn-info form-control">Upload</a>
+							{% else %}
+							<a class="btn btn-warning form-control">Completed</a>
+							{% endif %}
+						</div>
+						<div class="col">
+							{% if i.stactive == "3" %}
+							{% else %}
+							<a href="" class="btn btn-danger form-control">Delete</a>
+							{% endif %}
+						</div>
+					</div>
+				</td>
+			</tr>
+			{% endfor %}
+		</table>
+	</div>
+</div>
+{% endblock %}

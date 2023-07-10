@@ -1,0 +1,29 @@
+{% extends 'html/base.html' %}
+{% block title %}Assignment Status{% endblock %}
+{% block content %}
+<div class="card col-md mx-auto shadow-lg">
+	<div class="card-body">
+		<h3>Assignment Status</h3>
+		<table class="table table-borderless">
+			<tr class="bg-dark text-light">
+				<th>Sno</th>
+				<th>Name</th>
+				<th>Subject</th>
+				<th>Roll Number</th>
+				<th>Actions</th>
+			</tr>
+			{% for i in fg %}
+				<tr>
+					<td>{{forloop.counter}}</td>
+					<td>{{i.1}}</td>
+					<td>{{i.2}}</td>
+					<td>{{i.3}}</td>
+					<td>
+						<a href="{% url 'tsmr' i.0 %}" class="btn btn-info form-control">Update</a>
+					</td>
+				</tr>
+				{% endfor %}
+		</table>
+	</div>
+</div>
+{% endblock %}

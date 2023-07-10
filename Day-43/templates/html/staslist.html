@@ -1,0 +1,44 @@
+{% extends 'html/base.html' %}
+{% block title %}View Assigment List{% endblock %}
+{% block content %}
+	<div class="row">
+		{% for i in e %}
+			<div class="card col-md-3 shadow-lg mx-1">
+				<div class="card-body">
+					<h5>{{i.1}}</h5>
+					<h6>Subject {{i.2}}</h6>
+					<h6>Start Date {{i.3}}</h6>
+					<h6>End Date {{i.4}}</h6>
+					<h6>Status
+						{% if i.6 == 1 %}
+							<p class="badge badge-success">Active</p>
+						{% else %}
+							<p class="badge badge-danger">InActive</p>
+						{% endif %}
+					</h6>
+					<form method="post">
+						{% csrf_token %}
+						<div class="row my-1">
+							<div class="col">
+								{% if i.8 == '0' %}
+									<a href="{% url 'asty' i.0 %}" class="btn btn-success form-control">Apply</a>
+								{% elif i.8 == '1' %}
+									<a class="btn btn-secondary form-control">Activated</a>
+								{% elif i.8 == '2' %}
+									<a class="btn btn-warning form-control">Submitted</a>
+								{% elif i.8 == '3' %}
+									<a class="btn btn-primary form-control">Finished</a>
+								{% else %}
+								<a class="btn btn-info form-control">In Active</a>
+								{% endif %}
+							</div>
+							<div class="col">
+								<a href="#" class="form-control btn btn-info">View More</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+{% endblock %}
