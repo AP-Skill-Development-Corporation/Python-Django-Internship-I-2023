@@ -165,3 +165,6 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
 # Day-42(08-07-2023):
   - Created a model for Student Subscription
   - Recorded Video Link [Click Here]()
+# Day-43(10-07-2023):
+  - Project Completion with Profile and submission of assignment
+  - Recorded Video Link [Click Here]()
