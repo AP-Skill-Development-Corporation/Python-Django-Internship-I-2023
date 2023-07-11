@@ -54,61 +54,61 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
 # Day-13(05-06-2023):
   - Packages and Modules with sample example on it
   - Files Concept Overview,reading procedure with sample example on it
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/12QJbVuTQDMprh1sKu2iP5DGmetYJsWTw?usp=sharing)
 # Day-14(06-06-2023):
   - Files Concept Overview, Writing,Appending and Reading procedure with sample example on it.
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1FllPnlfr9XgC62WiqMxKfYFEtG1oG4f0?usp=sharing)
 # Day-15(07-06-2023):
   - Comprehensions Overview, Functional Programming Overview and sample examples on each
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1qtCJ20FeCj8yWLYGKLMgP8Cu6BAN8E7I?usp=sharing)
 # Day-16(08-06-2023):
   - Iterator and Generator with sample example on it
   - OOPS Concepts Overview
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1k9l2AEPiDLTgu2eUSqxoqPqqSWNq2ibV?usp=sharing)
 # Day-17(09-06-2023):
   - class and instance attributes with sample example
   - class and instance methods with sample example
   - static method with sample example
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1Agz0iuDnVWYMSEv_j20w7SLTTJHJAHqC?usp=sharing)
 # Day-18(10-06-2023):
   - Inheritance types Overview
   - Single andd Multi Level Inheritance with sample example on it
   - HTML5,CSS3 Overview
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1_RaqPoHyqx-9K0FQK8Wzy5VH5aevJAmw?usp=sharing)
 # Day-19(12-06-2023):
   - Django Installation and Version Check
   - Project Creation and Overview of Files in it
   - Running of a Project
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1n883oLrSwXtjv4Kra3-V2BSGH-Bzhh1x?usp=sharing)
 # Day-20(13-06-2023):
   - Django Introduction
   - UserApp Creation and Overview of Files in it
   - Dynamic Url Mapping with two parameters and a sample example on it
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1XVTrlU61rx05VlwA4L55XtXSErVovLcu?usp=sharing)
 # Day-21(14-06-2023):
   - html tag,inline and internal css,javascript access in HttpResponse with sample example on it
   - Template folder creation and accessing of .html file from it
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1lHWWxFR0WlQfZ26VzaiYX-GESmGlj7Hc?usp=sharing)
 # Day-22(15-06-2023):
   - Internal css for a .html file
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1wnMk8uOHpmafvRDyHAOttmWXz0uCVyJx?usp=sharing)
 # Day-23(16-06-2023):
   - Internal js accessing for a .html file
   - Static File Handling css,js file access to a .html file
   - Bootstrap-4 Overview
   - Index page by using bootstrap-4 library
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1_9YvAUWKAsuzJ_WDeyMnjkJEY6Acj_tM?usp=sharing)
 # Day-24(17-06-2023):
   - Grid System,margin,card,padding,border,shadow,button Overview with sample example on each
   - Interface between controller to templates
   - Data rendering from HTML to views and then views to another template
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1qV2K-cKrZHMKqYIAf5XDaaSJqBJEyac3?usp=sharing)
 # Day-25(19-06-2023):
   - Architecture of Django
   - Differences between MVC and MVT Design Patterns
   - Model Creation,makemigrations,migrate command and ORM Overview
   - Model Queries for Creating and Displaying in a shell
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1En3-dG2JGA1wTKB1db2Wr15_A3x9ALPw?usp=sharing)
 # Day-26(20-06-2023):
   - Displaying,Update and Delete by using ORM Queries in Shell
   - Superuser Creation
