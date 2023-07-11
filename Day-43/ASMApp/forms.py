@@ -1,6 +1,6 @@
 from django import forms
 from . models import User,TeacherProfile,StudentProfile,AssignmentT,AssignmentSt
-from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.forms import UserCreationForm,PasswordChangeForm
 
 class UsForm(UserCreationForm):
 	password1 = forms.CharField(widget=forms.PasswordInput(attrs={"class":"form-control my-2","placeholder":"Enter Password"}))
@@ -237,7 +237,12 @@ class UsplForm(forms.ModelForm):
 		"eid":forms.TextInput(attrs={
 			"class":"form-control my-2",
 			}),
-		"upfe":forms.FileInput(attrs={
-			"class":"form-control my-2",
-			}),
 		}
+
+class ChgPwd(PasswordChangeForm):
+	old_password = forms.CharField(widget=forms.PasswordInput(attrs={"class":"form-control my-2","placeholder":"Enter Old Password"}))
+	new_password1 = forms.CharField(widget=forms.PasswordInput(attrs={"class":"form-control my-2","placeholder":"Enter New Password"}))
+	new_password2 = forms.CharField(widget=forms.PasswordInput(attrs={"class":"form-control my-2","placeholder":"Enter Confirm New Password"}))
+	class Meta:
+		model = User
+		fields = ["old_password","new_password1","new_password2"]

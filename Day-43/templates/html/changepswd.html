@@ -1,0 +1,20 @@
+{% extends 'html/base.html' %}
+{% block title %}Change Password{% endblock %}
+{% block content %}
+<div class="card col-md-5 mx-auto shadow-lg">
+	<div class="card-body">
+		<h3 class="bg-primary text-light text-center p-2 border rounded">Change Password</h3>
+		<form method="post">
+			{% csrf_token %}
+			{% for j in c %}
+			{{j}}
+			{% endfor %}
+			<div class="row">
+				<a href="{% url 'hm' %}" class="btn btn-outline-info col-sm mx-1">Back</a>
+				<input type="reset" value="Reset" class="btn btn-outline-danger col-sm mx-1">
+				<input type="submit" value="Change" class="btn btn-outline-success col-sm mx-1">
+			</div>
+		</form>
+	</div>
+</div>
+{% endblock %}

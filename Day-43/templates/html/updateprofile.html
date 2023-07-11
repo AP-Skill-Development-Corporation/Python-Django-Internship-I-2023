@@ -4,10 +4,13 @@
 <form method="post" enctype="multipart/form-data">
 	{% csrf_token %}
 	<div class="row">
-		<div class="card col-md shadow-lg h-100 my-2">
+		<div class="card col-md shadow-lg mx-2">
 			<h4 class="my-2">User Data</h4>
 			{% for k in u %}
 				{{k}}
+			{% if forloop.counter == 6 %}
+			<div class="my-2"></div>
+			{% endif %}
 			{% endfor %}
 		</div>
 		<div class="card col-md shadow-lg h-100">

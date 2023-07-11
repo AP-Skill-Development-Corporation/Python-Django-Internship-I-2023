@@ -23,4 +23,5 @@ urlpatterns = [
 	path('tstmr/<int:p>/',views.tsmrup,name="tsmr"),
 	path('adlist/',views.adlistv,name="adls"),
 	path('adup/<int:j>/',views.adups,name="adsup"),
+	path('chgepwd/',views.changepwd,name="chgpw"),
 ]

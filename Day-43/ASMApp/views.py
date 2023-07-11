@@ -1,5 +1,5 @@
 from django.shortcuts import render,redirect
-from . forms import UsForm,TprofileForm,SprofileForm,AstForm,AsstForm,SsubForm,TsForm,AdrolU,UsplForm
+from . forms import UsForm,TprofileForm,SprofileForm,AstForm,AsstForm,SsubForm,TsForm,AdrolU,UsplForm,ChgPwd
 from . models import TeacherProfile,StudentProfile,AssignmentT,AssignmentSt,User
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
@@ -252,3 +252,13 @@ def adups(request,j):
 			return redirect('/adlist')
 	n = AdrolU(instance=p)
 	return render(request,'html/adsupd.html',{'nk':n})
+
+@login_required
+def changepwd(request):
+	if request.method == "POST":
+		b = ChgPwd(user=request.user,data=request.POST)
+		if b.is_valid():
+			b.save()
+			return redirect('/login')
+	b = ChgPwd(user=request.user)
+	return render(request,'html/changepswd.html',{'c':b})
