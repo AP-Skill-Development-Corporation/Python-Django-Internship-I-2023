@@ -113,20 +113,20 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - Displaying,Update and Delete by using ORM Queries in Shell
   - Superuser Creation
   - Completed Front end for CRUD Operations on Student Model Class
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1RMyR7Ka_gJ487OxImpRCGrSxxsHbvqJ9?usp=sharing)
 # Day-27(21-06-2023):
   - CRUD Operations by using Basic Procedure with frontend
   - Template Blocks and Bootstrap Offine procedure with sample example on each
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1XEi6_Q-XQFSGy_jUqB0W2L9tuPpS0Qvp?usp=sharing)
 # Day-28(22-06-2023):
   - Model field changes, Forms Concept Overview
   - Widgets usegae for forms
   - Completed Creating Student record by using Forms for Student model
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1ypaqW-WAaOXeBZO2dd8QLz0ABF6dWKzr?usp=sharing)
 # Day-29(23-06-2023):
   - CRUD Operations by using Forms Concept
   - Created Contact form by using Bootstrap
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1_om7ttc7LQGaWjXxh213VRScVVqb6Dxx?usp=sharing)
 # Day-30(24-06-2023):
   - Mail concept with configuration and sending,messages concept with sample example on it 
   - Recorded Video Link [Click Here]()
