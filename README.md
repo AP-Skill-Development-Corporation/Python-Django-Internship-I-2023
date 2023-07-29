@@ -120,7 +120,7 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1XEi6_Q-XQFSGy_jUqB0W2L9tuPpS0Qvp?usp=sharing)
 # Day-28(22-06-2023):
   - Model field changes, Forms Concept Overview
-  - Widgets usegae for forms
+  - Widgets useage for forms
   - Completed Creating Student record by using Forms for Student model
   - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1ypaqW-WAaOXeBZO2dd8QLz0ABF6dWKzr?usp=sharing)
 # Day-29(23-06-2023):
