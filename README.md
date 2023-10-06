@@ -79,54 +79,54 @@ Web Technology Django Framework [Python] - Internship [2023-2024]
   - Django Installation and Version Check
   - Project Creation and Overview of Files in it
   - Running of a Project
-  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1n883oLrSwXtjv4Kra3-V2BSGH-Bzhh1x?usp=sharing)
+  - Recorded Video Link [Click Here]()
 # Day-20(13-06-2023):
   - Django Introduction
   - UserApp Creation and Overview of Files in it
   - Dynamic Url Mapping with two parameters and a sample example on it
-  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1XVTrlU61rx05VlwA4L55XtXSErVovLcu?usp=sharing)
+  - Recorded Video Link [Click Here]()
 # Day-21(14-06-2023):
   - html tag,inline and internal css,javascript access in HttpResponse with sample example on it
   - Template folder creation and accessing of .html file from it
-  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1lHWWxFR0WlQfZ26VzaiYX-GESmGlj7Hc?usp=sharing)
+  - Recorded Video Link [Click Here]()
 # Day-22(15-06-2023):
   - Internal css for a .html file
-  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1wnMk8uOHpmafvRDyHAOttmWXz0uCVyJx?usp=sharing)
+  - Recorded Video Link [Click Here]()
 # Day-23(16-06-2023):
   - Internal js accessing for a .html file
   - Static File Handling css,js file access to a .html file
   - Bootstrap-4 Overview
   - Index page by using bootstrap-4 library
-  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1_9YvAUWKAsuzJ_WDeyMnjkJEY6Acj_tM?usp=sharing)
+  - Recorded Video Link [Click Here]()
 # Day-24(17-06-2023):
   - Grid System,margin,card,padding,border,shadow,button Overview with sample example on each
   - Interface between controller to templates
   - Data rendering from HTML to views and then views to another template
-  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1qV2K-cKrZHMKqYIAf5XDaaSJqBJEyac3?usp=sharing)
+  - Recorded Video Link [Click Here]()
 # Day-25(19-06-2023):
   - Architecture of Django
   - Differences between MVC and MVT Design Patterns
   - Model Creation,makemigrations,migrate command and ORM Overview
   - Model Queries for Creating and Displaying in a shell
-  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1En3-dG2JGA1wTKB1db2Wr15_A3x9ALPw?usp=sharing)
+  - Recorded Video Link [Click Here]()
 # Day-26(20-06-2023):
   - Displaying,Update and Delete by using ORM Queries in Shell
   - Superuser Creation
   - Completed Front end for CRUD Operations on Student Model Class
-  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1RMyR7Ka_gJ487OxImpRCGrSxxsHbvqJ9?usp=sharing)
+  - Recorded Video Link [Click Here]()
 # Day-27(21-06-2023):
   - CRUD Operations by using Basic Procedure with frontend
   - Template Blocks and Bootstrap Offine procedure with sample example on each
-  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1XEi6_Q-XQFSGy_jUqB0W2L9tuPpS0Qvp?usp=sharing)
+  - Recorded Video Link [Click Here]()
 # Day-28(22-06-2023):
   - Model field changes, Forms Concept Overview
   - Widgets useage for forms
   - Completed Creating Student record by using Forms for Student model
-  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1ypaqW-WAaOXeBZO2dd8QLz0ABF6dWKzr?usp=sharing)
+  - Recorded Video Link [Click Here]()
 # Day-29(23-06-2023):
   - CRUD Operations by using Forms Concept
   - Created Contact form by using Bootstrap
-  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1_om7ttc7LQGaWjXxh213VRScVVqb6Dxx?usp=sharing)
+  - Recorded Video Link [Click Here]()
 # Day-30(24-06-2023):
   - Mail concept with configuration and sending,messages concept with sample example on it 
   - Recorded Video Link [Click Here]()
